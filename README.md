@@ -1,4 +1,4 @@
-# 🏏 IPL Win Probability Predictor
+# IPL Win Probability Predictor
 
 An interactive Machine Learning application that predicts the winning probability of the batting and bowling teams during the second innings of an Indian Premier League (IPL) cricket match.
 
@@ -8,7 +8,7 @@ The application uses an **XGBoost classification model** to analyze the current 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Cricket matches can change rapidly with every over. This project uses historical IPL match and ball-by-ball delivery data to estimate the probability of a team's victory based on the current match situation.
 
@@ -35,7 +35,7 @@ Users can enter match details such as teams, venue, current score, wickets lost,
 
 ---
 
-## ✨ Features
+## Features
 
 - **Live Match Situation Input:** Enter the current score, target, wickets lost, and overs completed.
 - **Win Probability Prediction:** Estimate the winning chances of both competing teams.
@@ -46,7 +46,7 @@ Users can enter match details such as teams, venue, current score, wickets lost,
 
 ---
 
-## 🧠 Machine Learning Approach
+## Machine Learning Approach
 
 The project uses an **XGBoost Classifier** to predict the match outcome.
 
@@ -97,7 +97,7 @@ The evaluation uses a group-based train-test split to keep deliveries from the s
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -112,7 +112,7 @@ The evaluation uses a group-based train-test split to keep deliveries from the s
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 IPL-Win-Probability-Predictor/
@@ -139,7 +139,7 @@ IPL-Win-Probability-Predictor/
 
 ---
 
-## ⚙️ Installation and Setup
+## Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -187,17 +187,17 @@ http://localhost:8501
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 The application is deployed using **Streamlit Community Cloud** and connected to the GitHub repository.
 
 The deployment automatically installs the dependencies listed in `requirements.txt` and runs `app.py`.
 
-🔗 **Live Application:** https://ipl-win-probability-predictor-010906.streamlit.app/
+**Live Application:** https://ipl-win-probability-predictor-010906.streamlit.app/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Incorporate real-time IPL match data through a live cricket API.
 - Experiment with additional machine learning algorithms.
@@ -207,7 +207,7 @@ The deployment automatically installs the dependencies listed in `requirements.t
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Radhiha Balasankaran Ramamoorthi**
 
