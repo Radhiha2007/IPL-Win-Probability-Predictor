@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.streamlit/secrets.toml
+
+mlruns/
+mlflow.db
+
+final_match_model.pkl
+final_model.pkl
+model_2026.pkl
+pre_game_model.pkl
+scaler.pkl
